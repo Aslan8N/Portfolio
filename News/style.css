@@ -1,0 +1,284 @@
+/* News */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(46, 44, 44);
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container-header {
+    width: 1790px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    left: 550px;
+    padding: 15px 0;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    flex-wrap: nowrap;
+}
+
+.nav li + li {
+    margin-left: 50px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+section {
+    border-radius: 5px;
+    width: 1490px;
+    height: auto;
+    position: absolute;
+    left: 22px;
+    background-color: white;
+}
+
+#section {
+    flex-wrap: nowrap;
+
+}
+
+.text {
+    border: 2px solid black;
+    border-top: 0;
+    width: 1450px;
+    border-radius: 5px;
+    position: relative;
+    left: 19px;
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+.text h1 {
+    color: black;
+    font-size: 20px;
+}
+
+.text h1:hover {
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.list-1 {
+    position: relative;
+    left: 19px;
+}
+
+.list-1 li{
+    list-style-type: none;
+    width: 477px;
+    margin-right: 10px;
+}
+
+.list-1 li img {
+    width: 477px;
+
+}
+
+.list-1 li h3 {
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 7px;
+}
+
+.list-1 li p {
+    color: rgb(97, 93, 93);
+    font-size: 13px;
+}
+
+.list-1 li img:hover {
+    cursor: pointer;
+}
+
+.list-1 li h3:hover {
+    cursor: pointer;
+}
+
+.list-1 li p:hover {
+    cursor: pointer;
+}
+
+.list-2 {
+    position: relative;
+    left: 19px;
+}
+
+.list-2 li{
+    list-style-type: none;
+    width: 477px;
+    margin-right: 10px;
+}
+
+.list-2 li img {
+    width: 477px;
+
+}
+
+.list-2 li h3 {
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 7px;
+}
+
+.list-2 li p {
+    color: rgb(97, 93, 93);
+    font-size: 13px;
+}
+
+.list-2 li img:hover {
+    cursor: pointer;
+}
+
+.list-2 li h3:hover {
+    cursor: pointer;
+}
+
+.list-2 li p:hover {
+    cursor: pointer;
+}
+
+.list-3 {
+    position: relative;
+    left: 19px;
+}
+
+.list-3 li{
+    list-style-type: none;
+    width: 477px;
+    margin-right: 10px;
+}
+
+.list-3 li img {
+    width: 477px;
+
+}
+
+.list-3 li h3 {
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 7px;
+}
+
+.list-3 li p {
+    color: rgb(97, 93, 93);
+    font-size: 13px;
+}
+
+.list-3 li img:hover {
+    cursor: pointer;
+}
+
+.list-3 li h3:hover {
+    cursor: pointer;
+}
+
+.list-3 li p:hover {
+    cursor: pointer;
+}
+
+#list {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#list-1 {
+    position: relative;
+    left: 19px;
+}
+
+#list-1 li{
+    list-style-type: none;
+    width: 720px;
+    margin-right: 10px;
+}
+
+#list-1 li img {
+    width: 720px;
+
+}
+
+#list-1 li h3 {
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 7px;
+}
+
+#list-1 li p {
+    color: rgb(97, 93, 93);
+    font-size: 13px;
+}
+
+#list-1 li img:hover {
+    cursor: pointer;
+}
+
+#list-1 li h3:hover {
+    cursor: pointer;
+}
+
+#list-1 li p:hover {
+    cursor: pointer;
+}
+
+#list-2 {
+    position: relative;
+    left: 19px;
+}
+
+#list-2 li{
+    list-style-type: none;
+    width: 720px;
+    margin-right: 10px;
+}
+
+#list-2 li img {
+    width: 720px;
+    height: 405px;
+
+}
+
+#list-2 li h3 {
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 7px;
+}
+
+#list-2 li p {
+    color: rgb(97, 93, 93);
+    font-size: 13px;
+}
+
+#list-2 li img:hover {
+    cursor: pointer;
+}
+
+#list-2 li h3:hover {
+    cursor: pointer;
+}
+
+#list-2 li p:hover {
+    cursor: pointer;
+}
+
