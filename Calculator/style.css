@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(/Roboto/Roboto-Regular.ttf);
+}
+
+:root {
+    --body-background: #7c9c82;
+    --font-color: #000;
+    --calc-background: #333;
+    --but-background: #bbc5c7;
+    --signs-background: #fa5252;
+    --font-family: roboto, sans-serif;
+    --but-blue-background: #aebafc;
+    --but-blue-white-background: #00d0f5;
+}
+
+body {
+    background-color: var(--body-background);
+    font-family: var(--font-family);
+}
+
+.calculator {
+    margin: 150px auto;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: var(--calc-background);
+    color: var(--font-color);
+    padding: 20px;
+    box-shadow: 9px 8px 15px #000;
+    box-shadow: -2px -3px 10px -1px #000 inset;
+}
+
+
+.calc-screen {
+    height: 70px;
+    border: 1px solid #000;
+    box-shadow: -2px -3px 10px -1px #000 inset;
+    background: linear-gradient(45deg, #a1ffce, #f9ffd1);
+    display: grid;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 85px;
+    margin-top: 20px;
+}
+
+.calc-screen p {
+    font-size: 3.5rem;
+    margin-right: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-areas: "seven eight nine division plus-minus" 
+    "four five six multiplication radical"
+    "one two three minus procent"
+    "zero dot plus level level";
+    grid-gap: 7px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 70px;
+    height: 60px;
+    background-color: var(--but-background);
+    /* border: 2px solid #000; */
+    border-radius: 8px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 4px 4px 4px #000;
+    box-shadow: -2px -3px 10px -1px #000 inset;
+}
+
+.btn.level {
+    grid-area: level;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    filter: brightness(120%);
+}
+
+.btn:active {
+    filter: brightness(80%);
+}
+
+.bg-blue {
+    background-color: var(--but-blue-background);
+}
+
+.bg-white-blue {
+    background-color: var(--but-blue-white-background);
+}
+
+.bg-red {
+    background-color: var(--signs-background);
+}
+
+.procent {
+    background-color: var(--but-background);
+}
